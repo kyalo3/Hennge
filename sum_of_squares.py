@@ -13,6 +13,8 @@ def calculate_sum_of_squares(num_integers):
 
     sum_of_squares = 0
     numbers = input().split()
+    #if len(numbers) < num_integers:
+        #raise ValueError("Not enough numbers provided")
     for i in range(num_integers):
         number = int(numbers[i])
         if number > 0:
